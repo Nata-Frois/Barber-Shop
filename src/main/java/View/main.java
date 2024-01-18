@@ -28,12 +28,14 @@ public class main {
          System.out.println(servico.getValor());
         
          
-         Cliente cliente = new Cliente(1, "thiago", 'M', "19-97234-7865", "rua showshow 1050");
-         System.out.println(cliente);
+         Cliente cliente = new Cliente(1, "thiago", "rua teste", "13060-788");
+         System.out.println(cliente.getNome());
          
          
          Usuario usuario = new Usuario(1, "barbeiro", "senha");
-                 System.out.println(usuario);
+                 System.out.println(usuario.getNome());
+                 
+               
                  
         
     }
