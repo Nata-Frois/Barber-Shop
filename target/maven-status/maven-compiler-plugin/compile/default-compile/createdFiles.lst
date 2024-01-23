@@ -1,5 +1,6 @@
 View\agenda$1.class
 View\Login$2.class
+Model\Agendamento.class
 Model\Usuario.class
 View\Pessoa.class
 Model\Cliente.class
